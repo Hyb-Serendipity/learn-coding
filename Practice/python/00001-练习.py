@@ -27,3 +27,4 @@ max = a if (a>b and a>c) else (b if b>c else c)
 print(max)
 max1 = a if b<a>c else b if a<b>c else c
 print(max1)
+test
