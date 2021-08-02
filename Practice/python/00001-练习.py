@@ -20,6 +20,7 @@ max = a if a>b and a>c else b
 max = max if max>c else c
 print(max)
 """
+"""
 a = 9
 b = 2
 c = 20
@@ -28,3 +29,8 @@ print(max)
 max1 = a if b<a>c else b if a<b>c else c
 print(max1)
 test
+"""
+# print(input("input any words:"))
+age = 20
+if 1<age<21:
+    print ("hh")
