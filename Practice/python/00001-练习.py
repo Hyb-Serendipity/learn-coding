@@ -30,7 +30,33 @@ max1 = a if b<a>c else b if a<b>c else c
 print(max1)
 test
 """
-# print(input("input any words:"))
+"""# print(input("input any words:"))
 age = 20
 if 1<age<21:
     print ("hh")
+"""
+"""
+# 奇偶数判断
+num =int(input("Please input a number: "))
+if num %2 == 0:
+    print(num, "is a even number.")
+else:
+    print(num,"is not a odd number.")
+"""
+"""
+# 平闰年判断
+year = int(input("Please input the year: "))
+if year % 4 == 0 and year % 100 ==0:
+    print(year," is a leap year.")
+else:
+    print(year," is a common year.")
+"""
+# 狗子年龄判断
+dog_age = float(input("Please input your dog's age: "))
+if dog_age < 0:
+    print("It's a wrong age.")
+elif dog_age <= 2:
+    in_person_age = dog_age * 10.5
+else:
+    in_person_age = 2 * 10.5 + (dog_age - 2) * 4
+print("The dog's age in_person_age is ",in_person_age)
