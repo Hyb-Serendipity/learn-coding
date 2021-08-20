@@ -36,7 +36,7 @@ while i < 1000:
         print(i)
     i += 1
 """
-
+"""
 # 判断是否为质数，即一个大于1的自然数，除了1和它自身外，不能被其他自然数整除
 num = int(input("Please input an integer greater than 1: "))
 i = 2
@@ -53,3 +53,4 @@ if flag == True:
 else:
     print(num, a2)
 
+"""
