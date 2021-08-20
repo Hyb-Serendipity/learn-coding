@@ -51,6 +51,7 @@ if year % 4 == 0 and year % 100 ==0:
 else:
     print(year," is a common year.")
 """
+"""
 # 狗子年龄判断
 dog_age = float(input("Please input your dog's age: "))
 if dog_age < 0:
@@ -59,4 +60,20 @@ elif dog_age <= 2:
     in_person_age = dog_age * 10.5
 else:
     in_person_age = 2 * 10.5 + (dog_age - 2) * 4
-print("The dog's age in_person_age is ",in_person_age)
+print("The dog's age in_person_age is ","%.0f"%in_person_age)
+"""
+"""
+# 分数判断
+score = float(input("Please input the student's score: "))
+print("=============")
+if score > 100 or score < 0:
+    print("Wrong number!!")
+elif score == 100:
+    print("perfect!")
+elif score > 80:
+    print("A")
+elif score > 60:
+    print("B")
+else:
+    print("....")
+"""
