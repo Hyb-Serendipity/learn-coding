@@ -54,3 +54,42 @@ else:
     print(num, a2)
 
 """
+"""
+# 打印 5*5 的 *
+# 第一种方法
+i = 1
+while i <= 5:
+    print("*****")
+    i += 1
+
+
+# 第二种方法，嵌套
+i1 = 1
+while i1 <= 5:
+    i2 = 1
+    while i2 <=5:
+        print("*",end = "")
+        i2 += 1
+    print()
+    i1 += 1
+# 打印逐渐增多的 *
+i1 = 1
+while i1 <= 5:
+    i2 = 1
+    while i2 <= i1:
+        print("*",end = "")
+        i2 += 1
+    print()
+    i1 += 1
+"""
+"""
+# 99乘法表
+i1 = 1 
+while i1 <= 9:
+    i2 = 1 
+    while i1 >= i2 <= 9:
+        print(i2,"*",i1,"=",i1*i2,"  ",end = "")
+        i2 += 1
+    print("\n")
+    i1 += 1
+"""
